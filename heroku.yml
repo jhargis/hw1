@@ -1,0 +1,9 @@
+setup:
+  config:
+    foo: "bar"
+build:
+  docker:
+    web: Dockerfile
+run:
+  web: ./goapp
+
