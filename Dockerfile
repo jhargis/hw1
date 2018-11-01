@@ -2,6 +2,7 @@
 FROM golang:alpine AS build-env
 ADD . /src
 RUN cd /src && go build -o goapp
+RUN apk add --no-cache bash
 
 # final stage
 FROM alpine
