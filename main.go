@@ -9,7 +9,7 @@ import (
 )
 
 func hello(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "Hello world! dev")
+	io.WriteString(w, "Hello world! rev2")
 }
 
 func main() {
